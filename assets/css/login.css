@@ -1,0 +1,71 @@
+/* General Form Styles */
+form.login {
+    background: #f9f9f9; /* Light gray background for the form */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px 30px; /* Inner spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    max-width: 400px; /* Limit the form width */
+    margin: auto; /* Center it horizontally */
+}
+
+/* Input Fields */
+form.login .form-control {
+    border-radius: 5px; /* Rounded edges */
+    border: 1px solid #ced4da; /* Light gray border */
+    padding: 10px; /* Add some inner padding */
+    font-size: 1rem; /* Consistent font size */
+    margin-bottom: 15px; /* Space between inputs */
+}
+
+/* Input Focus State */
+form.login .form-control:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glowing effect */
+}
+
+/* Checkbox */
+form.login .form-check-label {
+    font-size: 0.9rem; /* Slightly smaller text */
+    color: #555; /* Dark gray for readability */
+}
+
+/* Button */
+form.login .btn-primary {
+    background-color: #007bff; /* Primary blue color */
+    border: none;
+    padding: 12px 20px; /* Spacious button */
+    font-size: 1rem; /* Large text */
+    font-weight: bold; /* Bold text */
+    border-radius: 5px; /* Rounded edges */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+form.login .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Error Message */
+div[style*="color: red;"] {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center; /* Center the error text */
+    margin-top: 10px;
+}
+
+/* Link */
+form.login a {
+    color: #007bff; /* Blue links */
+    text-decoration: none; /* No underline */
+}
+
+form.login a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Success Message */
+div[style*="color: green;"] {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
