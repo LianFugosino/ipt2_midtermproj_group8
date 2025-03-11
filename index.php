@@ -277,6 +277,21 @@ $result = $conn->query($sql);
 <!-- Include external JS file -->
 <script src="assets/js/modal.js"></script>
 
+<script>
+document.getElementById('firstname').addEventListener('input', function(event) {
+    let input = event.target.value;
+    if (/[^a-zA-Z\s]/.test(input)) {
+        event.target.value = input.replace(/[^a-zA-Z\s]/g, '');
+    }
+});
+
+document.getElementById('lastname').addEventListener('input', function(event) {
+    let input = event.target.value;
+    if (/[^a-zA-Z\s]/.test(input)) {
+        event.target.value = input.replace(/[^a-zA-Z\s]/g, '');
+    }
+});
+  </script>
 
 
 <?php
