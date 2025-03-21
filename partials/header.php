@@ -77,14 +77,14 @@ $search = isset($search) ? $search : "";
 
         <li class="nav-item dropdown pe-3">
     <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-        <img src="assets/img/LOVE.jpg" alt="Profile" class="rounded-circle">
-        <span class="d-none d-md-block dropdown-toggle ps-2">BADJAO</span>
+        <img src="assets/img/blank-profile-picture-973460_1280.webp" alt="Profile" class="rounded-circle">
+        <span class="d-none d-md-block dropdown-toggle ps-2">ADMIN</span>
     </a>
     <!-- Dropdown Menu -->
     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
         <li class="dropdown-header">
-            <h6>BADJAO</h6>
-            <span>BIST 2-3</span>
+            <h6>ADMIN</h6>
+            <span>BIST</span>
         </li>
         <li>
             <hr class="dropdown-divider">
