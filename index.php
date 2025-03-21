@@ -291,6 +291,20 @@ document.getElementById('lastname').addEventListener('input', function(event) {
         event.target.value = input.replace(/[^a-zA-Z\s]/g, '');
     }
 });
+
+document.getElementById('course').addEventListener('input', function(event) {
+    let input = event.target.value;
+    if (/[^a-zA-Z\s]/.test(input)) {
+        event.target.value = input.replace(/[^a-zA-Z\s]/g, '');
+    }
+});
+
+document.getElementById('status').addEventListener('input', function(event) {
+    let input = event.target.value;
+    if (/[^a-zA-Z\s]/.test(input)) {
+        event.target.value = input.replace(/[^a-zA-Z\s]/g, '');
+    }
+});
   </script>
 
 
